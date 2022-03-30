@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/18b37841d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Sasso-Carta-Forbice</title>
+</head>
+
+<body>
+    <!-- <i class="fa-solid fa-hand"></i> -->
+    <!-- <i class="fa-solid fa-hand-back-fist"></i> -->
+    <!-- <i class="fa-solid fa-hand-scissors"></i> -->
+
+    <div class="container">
+        <div class="header">
+            <h1>Sasso-Carta-Forbice</h1>
+            <button class="myButton">Reset</button>
+            <div class="punteggi">
+                <p>Punteggio Giocatore: 0</p>
+                <p>Punteggio Computer: 0</p>
+            </div>
+        </div>
+
+        <div class="cards">
+
+            <i id="sasso" class="card fa-solid fa-hand-back-fist fa-8x"></i>
+            <i id="carta" class="card fa-solid fa-hand fa-8x"></i>
+            <i id="forbice" class="card fa-solid fa-hand-scissors fa-8x"></i>
+
+        </div>
+
+        <div class="modal">
+            <div class="modal-content">
+
+                <h2 id="h2-sasso">
+                    <span></span>
+                </h2>
+                <i id="sasso" class="fa-solid fa-hand-back-fist fa-8x"></i>
+                <span class="close">&times;</span>
+
+
+                <h2 id="h2-carta">
+                    <span></span>
+                </h2>
+                <i id="carta" class="fa-solid fa-hand fa-8x"></i>
+                <span class="close">&times;</span>
+
+
+                <h2 id="h2-forbice">
+                    <span></span>
+                </h2>
+                <i id="forbice" class="fa-solid fa-hand-scissors fa-8x"></i>
+                <span class="close">&times;</span>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
